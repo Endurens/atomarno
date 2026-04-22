@@ -1,0 +1,165 @@
+body {
+    background-color: rgb(252, 247, 242);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/*Начало шапки сайта*/
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(17, 34, 66);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    height: 150px;
+    margin: -8px;
+}
+
+.name-of-header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+}
+
+.name-of-page {
+    color: rgb(252, 247, 242);
+    letter-spacing: 10px;
+    font-size: 30px;
+}
+
+.description-of-page {
+    color: rgb(252, 247, 242);
+    letter-spacing: 5px;
+    font-size: 15px;
+}
+
+/*Конец шапки сайта*/
+
+
+/*Начало оснавной части сайта*/
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    margin-top: 8px;
+    color: rgb(97, 109, 131);
+    width: 1600px;
+}
+
+.name-of-main-scientist {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    width: 700px;
+    height: 150px;
+}
+
+.full-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(17, 34, 66);
+    font-size: 40px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.name-of-post {
+    color: rgb(17, 34, 66);
+    font-size: 20px;
+    padding-top: 50px;
+    font-weight: bold;
+    padding-left: 300px;
+}
+
+.main-information {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    color: rgb(17, 34, 66);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 300px;
+    padding-right: 300px;
+    font-size: 20px;
+}
+
+.img, .img-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(17, 34, 66);
+    background-color: white;
+    font-size: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 300px;
+    padding-right: 300px;
+    img {
+        width: 400px;
+    }
+}
+
+.img-1 {
+    img {
+        width: 600px;
+    }
+}
+
+/*Конец оснавной части сайта*/
+
+
+/*Начало подвала сайта*/
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 8px;
+    flex-direction: column;
+    background-color: rgb(17, 34, 66);
+    height: 300px;
+    margin: -8px;
+}
+
+.name-of-footer-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50px;
+    width: 500px;
+}
+
+.name-of-page {
+    color: rgb(252, 247, 242);
+    letter-spacing: 10px;
+    font-size: 30px;
+}
+
+.description-of-page {
+    color: rgb(252, 247, 242);
+    letter-spacing: 5px;
+    font-size: 15px;
+}
+
+.footer-catalog-container {
+    display: flex;
+    position: relative;
+    color: rgb(252, 247, 242);
+    font-weight:100;
+    top: 70px;
+    gap: 50px;
+}
+
+.first-column-catalog-container:hover,
+.second-column-catalog-container {
+    cursor: pointer;
+}
+
+/*Конец подвала сайта*/
